@@ -105,7 +105,7 @@ public class MovieService {
 
 	            S3Client s3Client = S3Client.builder()
 	                    .region(Region.US_EAST_1)
-	                    .credentialsProvider(() -> AwsBasicCredentials.create("AKIA4GO4DIU3FAXYUPC2", "jNaHA9OB4VzSHDmNinJhsY8VsqjWpVUOFmrwhWku"))
+	                    .credentialsProvider(() -> AwsBasicCredentials.create("AKIA4GO4DIU3JVYEFPBN", "bLGLHhlcYjE95jfbXEsSoMz7Qr8Zu1jBnvHYMM2h"))
 	                    .build();
 
 	            DeleteObjectRequest deleteObjectRequest = DeleteObjectRequest.builder()
@@ -154,7 +154,7 @@ public class MovieService {
         try {
             S3Client s3Client = S3Client.builder()
                     .region(Region.US_EAST_1)
-                    .credentialsProvider(() -> AwsBasicCredentials.create("AKIA4GO4DIU3FAXYUPC2", "jNaHA9OB4VzSHDmNinJhsY8VsqjWpVUOFmrwhWku"))
+                    .credentialsProvider(() -> AwsBasicCredentials.create("AKIA4GO4DIU3JVYEFPBN", "bLGLHhlcYjE95jfbXEsSoMz7Qr8Zu1jBnvHYMM2h"))
                     .build();
 
             PutObjectRequest putObjectRequest = PutObjectRequest.builder()
